@@ -1442,6 +1442,13 @@
         bWeNhyAhTFsAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Eu sou o Xoquinho, o sistema de gerenciamento
+da Rion. Fui desenvolvido com intuito de auxiliar
+no dia a dia da rotina administrativa e operacional.
+Ainda estou em fase de desenvolvimento, então
+posso apresentar algumas falhas.</value>
+  </data>
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlhYANgA/fAAAyF3A2F3A6H3Q+G3A+H3hCF2hCI3xGH3BGH3RGI3xGJ3xGJ4BKJ3xKJ4BKK4ROI
