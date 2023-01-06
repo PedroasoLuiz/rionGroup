@@ -1,0 +1,10 @@
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.exe.config
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.exe
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.pdb
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.csproj.AssemblyReference.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.csproj.SuggestedBindingRedirects.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.Properties.Resources.resources
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.csproj.GenerateResource.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.csproj.CoreCompileInputs.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.exe
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.pdb

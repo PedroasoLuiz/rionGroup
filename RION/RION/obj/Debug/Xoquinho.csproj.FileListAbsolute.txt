@@ -1,0 +1,14 @@
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.exe.config
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.exe
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\RION.pdb
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\CustomControls.RJControls.dll
+C:\PEDRO\rionGroup\RION\RION\bin\Debug\MetroFramework.dll
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.AssemblyReference.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.SuggestedBindingRedirects.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.Form1.resources
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.Properties.Resources.resources
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.GenerateResource.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CoreCompileInputs.cache
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CopyComplete
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.exe
+C:\PEDRO\rionGroup\RION\RION\obj\Debug\RION.pdb
