@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace RION
 {
-    public partial class Form1 :Form
+    public partial class FrmLogin :Form
     {
-        public Form1()
+        public FrmLogin()
         {
             InitializeComponent();
         }
@@ -22,9 +22,17 @@ namespace RION
         {
         }
 
+        // Botão fechar formulário
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
