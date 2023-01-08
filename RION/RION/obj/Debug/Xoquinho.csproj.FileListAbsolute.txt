@@ -19,10 +19,10 @@ D:\Projeto RION\rionGroup\RION\RION\bin\Debug\CustomControls.RJControls.dll
 D:\Projeto RION\rionGroup\RION\RION\bin\Debug\MetroFramework.dll
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.AssemblyReference.cache
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.SuggestedBindingRedirects.cache
-D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.Form1.resources
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.Properties.Resources.resources
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.GenerateResource.cache
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CoreCompileInputs.cache
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CopyComplete
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.exe
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.pdb
+D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmLogin.resources

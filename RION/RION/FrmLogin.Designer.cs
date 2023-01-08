@@ -29,37 +29,28 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtEmail = new CustomControls.RJControls.RJTextBox();
             this.txtSenha = new CustomControls.RJControls.RJTextBox();
             this.btnLogin = new CustomControls.RJControls.RJButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabLogin = new System.Windows.Forms.TabPage();
+            this.lnbEsqueciSenha = new System.Windows.Forms.LinkLabel();
+            this.btnSair = new CustomControls.RJControls.RJButton();
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.tabCadastro = new System.Windows.Forms.TabPage();
+            this.txtConfSenha = new CustomControls.RJControls.RJTextBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.lnbEsqueciSenha = new System.Windows.Forms.LinkLabel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txtConfSenha = new CustomControls.RJControls.RJTextBox();
-            this.btnSair = new CustomControls.RJControls.RJButton();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.tabLogin.SuspendLayout();
+            this.tabCadastro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(619, 58);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 91);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // txtEmail
             // 
@@ -129,53 +120,33 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabLogin);
+            this.tabControl1.Controls.Add(this.tabCadastro);
             this.tabControl1.Location = new System.Drawing.Point(-5, -14);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(888, 552);
             this.tabControl1.TabIndex = 3;
             // 
-            // tabPage1
+            // tabLogin
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.pictureBox3);
-            this.tabPage1.Controls.Add(this.pictureBox2);
-            this.tabPage1.Controls.Add(this.txtSenha);
-            this.tabPage1.Controls.Add(this.pictureBox5);
-            this.tabPage1.Controls.Add(this.txtEmail);
-            this.tabPage1.Controls.Add(this.lnbEsqueciSenha);
-            this.tabPage1.Controls.Add(this.btnSair);
-            this.tabPage1.Controls.Add(this.rjButton1);
-            this.tabPage1.Controls.Add(this.btnLogin);
-            this.tabPage1.Controls.Add(this.pictureBox1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(880, 526);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(525, 252);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(525, 206);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.tabLogin.BackColor = System.Drawing.Color.White;
+            this.tabLogin.Controls.Add(this.pictureBox3);
+            this.tabLogin.Controls.Add(this.pictureBox2);
+            this.tabLogin.Controls.Add(this.txtSenha);
+            this.tabLogin.Controls.Add(this.pictureBox5);
+            this.tabLogin.Controls.Add(this.txtEmail);
+            this.tabLogin.Controls.Add(this.lnbEsqueciSenha);
+            this.tabLogin.Controls.Add(this.btnSair);
+            this.tabLogin.Controls.Add(this.rjButton1);
+            this.tabLogin.Controls.Add(this.btnLogin);
+            this.tabLogin.Controls.Add(this.pictureBox1);
+            this.tabLogin.Location = new System.Drawing.Point(4, 22);
+            this.tabLogin.Name = "tabLogin";
+            this.tabLogin.Padding = new System.Windows.Forms.Padding(3);
+            this.tabLogin.Size = new System.Drawing.Size(880, 526);
+            this.tabLogin.TabIndex = 0;
+            this.tabLogin.Text = "tabPage1";
             // 
             // lnbEsqueciSenha
             // 
@@ -188,15 +159,27 @@
             this.lnbEsqueciSenha.TabStop = true;
             this.lnbEsqueciSenha.Text = "Esqueci minha senha";
             // 
-            // pictureBox5
+            // btnSair
             // 
-            this.pictureBox5.Image = global::RION.Properties.Resources.boas_vindas;
-            this.pictureBox5.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(515, 515);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.BackgroundColor = System.Drawing.Color.White;
+            this.btnSair.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(154)))), ((int)(((byte)(175)))));
+            this.btnSair.BorderRadius = 5;
+            this.btnSair.BorderSize = 0;
+            this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(136)))), ((int)(((byte)(223)))));
+            this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(183)))), ((int)(((byte)(243)))));
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.ForeColor = System.Drawing.Color.Gray;
+            this.btnSair.Location = new System.Drawing.Point(552, 484);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(279, 35);
+            this.btnSair.TabIndex = 2;
+            this.btnSair.Text = "Sair";
+            this.btnSair.TextColor = System.Drawing.Color.Gray;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // rjButton1
             // 
@@ -220,16 +203,16 @@
             this.rjButton1.UseVisualStyleBackColor = false;
             this.rjButton1.Click += new System.EventHandler(this.btnLogin_Click);
             // 
-            // tabPage2
+            // tabCadastro
             // 
-            this.tabPage2.Controls.Add(this.txtConfSenha);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(880, 526);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabCadastro.Controls.Add(this.txtConfSenha);
+            this.tabCadastro.Location = new System.Drawing.Point(4, 22);
+            this.tabCadastro.Name = "tabCadastro";
+            this.tabCadastro.Padding = new System.Windows.Forms.Padding(3);
+            this.tabCadastro.Size = new System.Drawing.Size(880, 526);
+            this.tabCadastro.TabIndex = 1;
+            this.tabCadastro.Text = "tabPage2";
+            this.tabCadastro.UseVisualStyleBackColor = true;
             // 
             // txtConfSenha
             // 
@@ -254,47 +237,64 @@
             this.txtConfSenha.UnderlinedStyle = false;
             this.txtConfSenha.Visible = false;
             // 
-            // btnSair
+            // pictureBox3
             // 
-            this.btnSair.BackColor = System.Drawing.Color.White;
-            this.btnSair.BackgroundColor = System.Drawing.Color.White;
-            this.btnSair.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(154)))), ((int)(((byte)(175)))));
-            this.btnSair.BorderRadius = 5;
-            this.btnSair.BorderSize = 0;
-            this.btnSair.FlatAppearance.BorderSize = 0;
-            this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(136)))), ((int)(((byte)(223)))));
-            this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(183)))), ((int)(((byte)(243)))));
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Font = new System.Drawing.Font("Bahnschrift", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.ForeColor = System.Drawing.Color.Gray;
-            this.btnSair.Location = new System.Drawing.Point(552, 484);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(279, 35);
-            this.btnSair.TabIndex = 2;
-            this.btnSair.Text = "Sair";
-            this.btnSair.TextColor = System.Drawing.Color.Gray;
-            this.btnSair.UseVisualStyleBackColor = false;
-            this.btnSair.Click += new System.EventHandler(this.btnLogin_Click);
+            this.pictureBox3.Image = global::RION.Properties.Resources.password_icone;
+            this.pictureBox3.Location = new System.Drawing.Point(525, 252);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
             // 
-            // Form1
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RION.Properties.Resources.user_icone;
+            this.pictureBox2.Location = new System.Drawing.Point(525, 206);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::RION.Properties.Resources.boas_vindas;
+            this.pictureBox5.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(515, 515);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(619, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(133, 91);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // FrmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(879, 535);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.tabLogin.ResumeLayout(false);
+            this.tabLogin.PerformLayout();
+            this.tabCadastro.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -306,8 +306,8 @@
         private CustomControls.RJControls.RJTextBox txtSenha;
         private CustomControls.RJControls.RJButton btnLogin;
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabLogin;
+        private System.Windows.Forms.TabPage tabCadastro;
         private CustomControls.RJControls.RJButton rjButton1;
         private CustomControls.RJControls.RJTextBox txtConfSenha;
         private System.Windows.Forms.PictureBox pictureBox2;
