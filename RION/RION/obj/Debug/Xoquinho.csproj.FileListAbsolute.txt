@@ -26,3 +26,4 @@ D:\Projeto RION\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CopyComplete
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.exe
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.pdb
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmLogin.resources
+D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmContainer.resources

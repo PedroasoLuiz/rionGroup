@@ -56,6 +56,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmContainer.Designer.cs">
+      <DependentUpon>FrmContainer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmContainer.resx">
+      <DependentUpon>FrmContainer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +108,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\password-icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualizar-icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualizar-semfundo-icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visualizar-icone1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-sem-fundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boas-vindas-escuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-icone-escuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-icone-escuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os-icone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os-icone40x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\os-icone25x25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Almoxarifado-icone25x25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastros-icone25x25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastros-icone20x20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dev júnior %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
