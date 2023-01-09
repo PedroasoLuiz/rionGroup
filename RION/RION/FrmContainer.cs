@@ -27,7 +27,9 @@ namespace RION
         {
             try
             {
+                FechaOpcoes(panelAlmoxarifado);
                 Opcoes(panelCadastros);
+                FechaOpcoes(panelEngenharia);
             }
             catch (Exception ex)
             {
@@ -40,6 +42,8 @@ namespace RION
         {
             try
             {
+                FechaOpcoes(panelAlmoxarifado);
+                FechaOpcoes(panelCadastros);
                 Opcoes(panelEngenharia);
             }
             catch (Exception ex)
@@ -53,6 +57,8 @@ namespace RION
             try
             {
                 Opcoes(panelAlmoxarifado);
+                FechaOpcoes(panelCadastros);
+                FechaOpcoes(panelEngenharia);
             }
             catch (Exception ex)
             {
@@ -73,6 +79,15 @@ namespace RION
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+        private void FechaOpcoes(Panel container)
+        {
+            container.Visible = false;
+        }
+
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

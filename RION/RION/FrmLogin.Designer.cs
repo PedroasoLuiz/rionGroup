@@ -34,11 +34,19 @@
             this.btnLogin = new CustomControls.RJControls.RJButton();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabLogin = new System.Windows.Forms.TabPage();
+            this.verSenha = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.linkCadastrar = new System.Windows.Forms.LinkLabel();
             this.lnbEsqueciSenha = new System.Windows.Forms.LinkLabel();
             this.btnSair = new CustomControls.RJControls.RJButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabCadastro = new System.Windows.Forms.TabPage();
+            this.verSenha_Cadastro = new System.Windows.Forms.PictureBox();
+            this.versenha2_Cadastro = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtConfSenha_Cadastro = new CustomControls.RJControls.RJTextBox();
             this.txtSenha_Cadastro = new CustomControls.RJControls.RJTextBox();
@@ -46,26 +54,18 @@
             this.linkLogin = new System.Windows.Forms.LinkLabel();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
             this.btnCadastrar = new CustomControls.RJControls.RJButton();
-            this.verSenha = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.verSenha_Cadastro = new System.Windows.Forms.PictureBox();
-            this.versenha2_Cadastro = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabLogin.SuspendLayout();
-            this.tabCadastro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verSenha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tabCadastro.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verSenha_Cadastro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.versenha2_Cadastro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
@@ -91,7 +91,7 @@
             this.txtEmail.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.txtEmail.PasswordChar = false;
             this.txtEmail.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtEmail.PlaceholderText = "";
+            this.txtEmail.PlaceholderText = "E-mail";
             this.txtEmail.Size = new System.Drawing.Size(279, 33);
             this.txtEmail.TabIndex = 0;
             this.txtEmail.Texts = "";
@@ -113,7 +113,7 @@
             this.txtSenha.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.txtSenha.PasswordChar = true;
             this.txtSenha.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtSenha.PlaceholderText = "";
+            this.txtSenha.PlaceholderText = "Senha";
             this.txtSenha.Size = new System.Drawing.Size(279, 33);
             this.txtSenha.TabIndex = 1;
             this.txtSenha.Texts = "";
@@ -173,6 +173,19 @@
             this.tabLogin.TabIndex = 0;
             this.tabLogin.Text = "tabPage1";
             // 
+            // verSenha
+            // 
+            this.verSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.verSenha.Image = ((System.Drawing.Image)(resources.GetObject("verSenha.Image")));
+            this.verSenha.Location = new System.Drawing.Point(803, 255);
+            this.verSenha.Name = "verSenha";
+            this.verSenha.Size = new System.Drawing.Size(19, 19);
+            this.verSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.verSenha.TabIndex = 21;
+            this.verSenha.TabStop = false;
+            this.verSenha.MouseLeave += new System.EventHandler(this.verSenha_MouseLeave);
+            this.verSenha.MouseHover += new System.EventHandler(this.verSenha_MouseHover);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -183,6 +196,36 @@
             this.label1.Size = new System.Drawing.Size(104, 15);
             this.label1.TabIndex = 7;
             this.label1.Text = "Primeiro acesso?";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::RION.Properties.Resources.password_icone_escuro;
+            this.pictureBox3.Location = new System.Drawing.Point(525, 254);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::RION.Properties.Resources.user_icone_escuro;
+            this.pictureBox2.Location = new System.Drawing.Point(525, 207);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::RION.Properties.Resources.boas_vindas_escuro;
+            this.pictureBox5.Location = new System.Drawing.Point(-4, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(515, 515);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 1;
+            this.pictureBox5.TabStop = false;
             // 
             // linkCadastrar
             // 
@@ -233,6 +276,15 @@
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(619, 58);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(133, 91);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // tabCadastro
             // 
             this.tabCadastro.BackColor = System.Drawing.Color.White;
@@ -256,6 +308,42 @@
             this.tabCadastro.Size = new System.Drawing.Size(880, 526);
             this.tabCadastro.TabIndex = 1;
             this.tabCadastro.Text = "tabPage2";
+            // 
+            // verSenha_Cadastro
+            // 
+            this.verSenha_Cadastro.BackColor = System.Drawing.Color.Transparent;
+            this.verSenha_Cadastro.Image = ((System.Drawing.Image)(resources.GetObject("verSenha_Cadastro.Image")));
+            this.verSenha_Cadastro.Location = new System.Drawing.Point(803, 255);
+            this.verSenha_Cadastro.Name = "verSenha_Cadastro";
+            this.verSenha_Cadastro.Size = new System.Drawing.Size(19, 19);
+            this.verSenha_Cadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.verSenha_Cadastro.TabIndex = 21;
+            this.verSenha_Cadastro.TabStop = false;
+            this.verSenha_Cadastro.MouseLeave += new System.EventHandler(this.verSenha_Cadastro_MouseLeave);
+            this.verSenha_Cadastro.MouseHover += new System.EventHandler(this.verSenha_Cadastro_MouseHover);
+            // 
+            // versenha2_Cadastro
+            // 
+            this.versenha2_Cadastro.BackColor = System.Drawing.Color.Transparent;
+            this.versenha2_Cadastro.Image = ((System.Drawing.Image)(resources.GetObject("versenha2_Cadastro.Image")));
+            this.versenha2_Cadastro.Location = new System.Drawing.Point(803, 300);
+            this.versenha2_Cadastro.Name = "versenha2_Cadastro";
+            this.versenha2_Cadastro.Size = new System.Drawing.Size(19, 19);
+            this.versenha2_Cadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.versenha2_Cadastro.TabIndex = 20;
+            this.versenha2_Cadastro.TabStop = false;
+            this.versenha2_Cadastro.MouseLeave += new System.EventHandler(this.versenha2_Cadastro_MouseLeave);
+            this.versenha2_Cadastro.MouseHover += new System.EventHandler(this.versenha2_Cadastro_MouseHover);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::RION.Properties.Resources.password_icone_escuro;
+            this.pictureBox9.Location = new System.Drawing.Point(525, 298);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 19;
+            this.pictureBox9.TabStop = false;
             // 
             // label2
             // 
@@ -284,7 +372,7 @@
             this.txtConfSenha_Cadastro.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.txtConfSenha_Cadastro.PasswordChar = true;
             this.txtConfSenha_Cadastro.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtConfSenha_Cadastro.PlaceholderText = "";
+            this.txtConfSenha_Cadastro.PlaceholderText = "Confirme sua senha";
             this.txtConfSenha_Cadastro.Size = new System.Drawing.Size(279, 33);
             this.txtConfSenha_Cadastro.TabIndex = 2;
             this.txtConfSenha_Cadastro.Texts = "";
@@ -306,7 +394,7 @@
             this.txtSenha_Cadastro.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.txtSenha_Cadastro.PasswordChar = true;
             this.txtSenha_Cadastro.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtSenha_Cadastro.PlaceholderText = "";
+            this.txtSenha_Cadastro.PlaceholderText = "Senha";
             this.txtSenha_Cadastro.Size = new System.Drawing.Size(279, 33);
             this.txtSenha_Cadastro.TabIndex = 1;
             this.txtSenha_Cadastro.Texts = "";
@@ -328,7 +416,7 @@
             this.txtEmail_Cadastro.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
             this.txtEmail_Cadastro.PasswordChar = false;
             this.txtEmail_Cadastro.PlaceholderColor = System.Drawing.Color.DarkGray;
-            this.txtEmail_Cadastro.PlaceholderText = "";
+            this.txtEmail_Cadastro.PlaceholderText = "E-mail";
             this.txtEmail_Cadastro.Size = new System.Drawing.Size(279, 33);
             this.txtEmail_Cadastro.TabIndex = 0;
             this.txtEmail_Cadastro.Texts = "";
@@ -391,94 +479,6 @@
             this.btnCadastrar.TextColor = System.Drawing.Color.White;
             this.btnCadastrar.UseVisualStyleBackColor = false;
             // 
-            // verSenha
-            // 
-            this.verSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.verSenha.Image = ((System.Drawing.Image)(resources.GetObject("verSenha.Image")));
-            this.verSenha.Location = new System.Drawing.Point(803, 255);
-            this.verSenha.Name = "verSenha";
-            this.verSenha.Size = new System.Drawing.Size(19, 19);
-            this.verSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.verSenha.TabIndex = 21;
-            this.verSenha.TabStop = false;
-            this.verSenha.MouseLeave += new System.EventHandler(this.verSenha_MouseLeave);
-            this.verSenha.MouseHover += new System.EventHandler(this.verSenha_MouseHover);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::RION.Properties.Resources.password_icone_escuro;
-            this.pictureBox3.Location = new System.Drawing.Point(525, 254);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::RION.Properties.Resources.user_icone_escuro;
-            this.pictureBox2.Location = new System.Drawing.Point(525, 207);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::RION.Properties.Resources.boas_vindas_escuro;
-            this.pictureBox5.Location = new System.Drawing.Point(-4, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(515, 515);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(619, 58);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 91);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // verSenha_Cadastro
-            // 
-            this.verSenha_Cadastro.BackColor = System.Drawing.Color.Transparent;
-            this.verSenha_Cadastro.Image = ((System.Drawing.Image)(resources.GetObject("verSenha_Cadastro.Image")));
-            this.verSenha_Cadastro.Location = new System.Drawing.Point(803, 255);
-            this.verSenha_Cadastro.Name = "verSenha_Cadastro";
-            this.verSenha_Cadastro.Size = new System.Drawing.Size(19, 19);
-            this.verSenha_Cadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.verSenha_Cadastro.TabIndex = 21;
-            this.verSenha_Cadastro.TabStop = false;
-            this.verSenha_Cadastro.MouseLeave += new System.EventHandler(this.verSenha_Cadastro_MouseLeave);
-            this.verSenha_Cadastro.MouseHover += new System.EventHandler(this.verSenha_Cadastro_MouseHover);
-            // 
-            // versenha2_Cadastro
-            // 
-            this.versenha2_Cadastro.BackColor = System.Drawing.Color.Transparent;
-            this.versenha2_Cadastro.Image = ((System.Drawing.Image)(resources.GetObject("versenha2_Cadastro.Image")));
-            this.versenha2_Cadastro.Location = new System.Drawing.Point(803, 300);
-            this.versenha2_Cadastro.Name = "versenha2_Cadastro";
-            this.versenha2_Cadastro.Size = new System.Drawing.Size(19, 19);
-            this.versenha2_Cadastro.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.versenha2_Cadastro.TabIndex = 20;
-            this.versenha2_Cadastro.TabStop = false;
-            this.versenha2_Cadastro.MouseLeave += new System.EventHandler(this.versenha2_Cadastro_MouseLeave);
-            this.versenha2_Cadastro.MouseHover += new System.EventHandler(this.versenha2_Cadastro_MouseHover);
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::RION.Properties.Resources.password_icone_escuro;
-            this.pictureBox9.Location = new System.Drawing.Point(525, 298);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 19;
-            this.pictureBox9.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::RION.Properties.Resources.password_icone_escuro;
@@ -533,13 +533,13 @@
             this.tabControl1.ResumeLayout(false);
             this.tabLogin.ResumeLayout(false);
             this.tabLogin.PerformLayout();
-            this.tabCadastro.ResumeLayout(false);
-            this.tabCadastro.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verSenha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tabCadastro.ResumeLayout(false);
+            this.tabCadastro.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.verSenha_Cadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.versenha2_Cadastro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
