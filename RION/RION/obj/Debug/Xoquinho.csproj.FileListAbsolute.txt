@@ -27,3 +27,19 @@ D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.exe
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.pdb
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmLogin.resources
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmContainer.resources
+C:\Xoquinho\rionGroup\RION\RION\bin\Debug\RION.exe.config
+C:\Xoquinho\rionGroup\RION\RION\bin\Debug\RION.exe
+C:\Xoquinho\rionGroup\RION\RION\bin\Debug\RION.pdb
+C:\Xoquinho\rionGroup\RION\RION\bin\Debug\CustomControls.RJControls.dll
+C:\Xoquinho\rionGroup\RION\RION\bin\Debug\MetroFramework.dll
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.AssemblyReference.cache
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.SuggestedBindingRedirects.cache
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.FrmContainer.resources
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.FrmLogin.resources
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.Properties.Resources.resources
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.GenerateResource.cache
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CoreCompileInputs.cache
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\Xoquinho.csproj.CopyComplete
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.exe
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.pdb
+C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.FrmUsuários.resources

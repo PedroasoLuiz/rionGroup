@@ -89,5 +89,35 @@ namespace RION
         {
 
         }
+
+        private void btnCadastroUsuarios_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var frm = Application.OpenForms["FrmUsuários"];
+                if (frm == null)
+                {
+                    FrmUsuários frmUser = new FrmUsuários();
+                    ChamaForm(frmUser);
+                }
+                else
+                    frm.Activate();
+                
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void ChamaForm(Form frm)
+        {
+            frm.Height = panelForms.Height;
+            frm.Width = panelForms.Width;
+            frm.Left = panelForms.Left;
+            frm.Top = panelForms.Top;
+            frm.Show();
+        }
     }
 }

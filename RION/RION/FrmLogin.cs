@@ -17,8 +17,9 @@ namespace RION
         public FrmLogin()
         {
             InitializeComponent();
+            frmLogin = new FrmLogin();
         }
-
+        FrmLogin frmLogin = null;
         private void Form1_Load(object sender, EventArgs e)
         {
         }
@@ -29,6 +30,7 @@ namespace RION
             FrmContainer frm = new FrmContainer();
             frm.lnUsername.Text = txtEmail.Texts;
             frm.Show();
+            frmLogin.Close();
         }
 
 
@@ -43,7 +45,7 @@ namespace RION
         {
             try
             {
-                this.Close();
+                frmLogin.Close();
             }
             catch (Exception ex)
             {
