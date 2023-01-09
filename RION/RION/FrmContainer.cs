@@ -21,6 +21,7 @@ namespace RION
         private void lbClose_Click(object sender, EventArgs e)
         {
             this.Close();
+
         }
 
         private void btnCadastros_Click(object sender, EventArgs e)
@@ -117,7 +118,7 @@ namespace RION
             frm.Width = panelForms.Width;
             frm.Left = panelForms.Left;
             frm.Top = panelForms.Top;
-            frm.Show();
+            frm.ShowDialog();
         }
     }
 }
