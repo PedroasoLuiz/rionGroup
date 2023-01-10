@@ -56,10 +56,11 @@
             this.rjTextBox9 = new CustomControls.RJControls.RJTextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.rjToggleButton1 = new CustomControls.RJControls.RJToggleButton();
-            this.rjToggleButton2 = new CustomControls.RJControls.RJToggleButton();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.rjButton3 = new CustomControls.RJControls.RJButton();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -125,7 +126,7 @@
             this.rjTextBox1.BorderSize = 1;
             this.rjTextBox1.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox1.Location = new System.Drawing.Point(54, 336);
+            this.rjTextBox1.Location = new System.Drawing.Point(517, 114);
             this.rjTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox1.Multiline = false;
             this.rjTextBox1.Name = "rjTextBox1";
@@ -147,7 +148,7 @@
             this.rjTextBox2.BorderSize = 1;
             this.rjTextBox2.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox2.Location = new System.Drawing.Point(54, 400);
+            this.rjTextBox2.Location = new System.Drawing.Point(517, 178);
             this.rjTextBox2.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox2.Multiline = false;
             this.rjTextBox2.Name = "rjTextBox2";
@@ -155,7 +156,7 @@
             this.rjTextBox2.PasswordChar = false;
             this.rjTextBox2.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.rjTextBox2.PlaceholderText = "";
-            this.rjTextBox2.Size = new System.Drawing.Size(175, 34);
+            this.rjTextBox2.Size = new System.Drawing.Size(162, 34);
             this.rjTextBox2.TabIndex = 4;
             this.rjTextBox2.Texts = "1";
             this.rjTextBox2.UnderlinedStyle = false;
@@ -169,7 +170,7 @@
             this.rjTextBox3.BorderSize = 1;
             this.rjTextBox3.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox3.Location = new System.Drawing.Point(523, 340);
+            this.rjTextBox3.Location = new System.Drawing.Point(517, 309);
             this.rjTextBox3.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox3.Multiline = false;
             this.rjTextBox3.Name = "rjTextBox3";
@@ -191,7 +192,7 @@
             this.rjTextBox4.BorderSize = 1;
             this.rjTextBox4.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox4.Location = new System.Drawing.Point(523, 402);
+            this.rjTextBox4.Location = new System.Drawing.Point(517, 373);
             this.rjTextBox4.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox4.Multiline = false;
             this.rjTextBox4.Name = "rjTextBox4";
@@ -215,7 +216,7 @@
             this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton1.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjButton1.ForeColor = System.Drawing.Color.White;
-            this.rjButton1.Location = new System.Drawing.Point(84, 250);
+            this.rjButton1.Location = new System.Drawing.Point(185, 254);
             this.rjButton1.MaximumSize = new System.Drawing.Size(100, 30);
             this.rjButton1.MinimumSize = new System.Drawing.Size(95, 26);
             this.rjButton1.Name = "rjButton1";
@@ -233,7 +234,7 @@
             this.rjCircularPictureBox1.BorderLineStyle = System.Drawing.Drawing2D.DashStyle.Solid;
             this.rjCircularPictureBox1.BorderSize = 2;
             this.rjCircularPictureBox1.GradientAngle = 50F;
-            this.rjCircularPictureBox1.Location = new System.Drawing.Point(60, 95);
+            this.rjCircularPictureBox1.Location = new System.Drawing.Point(161, 99);
             this.rjCircularPictureBox1.MaximumSize = new System.Drawing.Size(143, 143);
             this.rjCircularPictureBox1.MinimumSize = new System.Drawing.Size(140, 140);
             this.rjCircularPictureBox1.Name = "rjCircularPictureBox1";
@@ -246,7 +247,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(51, 321);
+            this.label2.Location = new System.Drawing.Point(514, 99);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(23, 15);
             this.label2.TabIndex = 7;
@@ -256,7 +257,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(51, 383);
+            this.label3.Location = new System.Drawing.Point(514, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 15);
             this.label3.TabIndex = 7;
@@ -266,7 +267,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(520, 323);
+            this.label4.Location = new System.Drawing.Point(514, 294);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 15);
             this.label4.TabIndex = 7;
@@ -276,7 +277,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(520, 385);
+            this.label5.Location = new System.Drawing.Point(514, 356);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(189, 15);
             this.label5.TabIndex = 7;
@@ -291,7 +292,7 @@
             this.rjTextBox5.BorderSize = 1;
             this.rjTextBox5.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox5.Location = new System.Drawing.Point(241, 400);
+            this.rjTextBox5.Location = new System.Drawing.Point(692, 178);
             this.rjTextBox5.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox5.Multiline = false;
             this.rjTextBox5.Name = "rjTextBox5";
@@ -299,7 +300,7 @@
             this.rjTextBox5.PasswordChar = false;
             this.rjTextBox5.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.rjTextBox5.PlaceholderText = "";
-            this.rjTextBox5.Size = new System.Drawing.Size(200, 34);
+            this.rjTextBox5.Size = new System.Drawing.Size(192, 34);
             this.rjTextBox5.TabIndex = 4;
             this.rjTextBox5.Texts = "1";
             this.rjTextBox5.UnderlinedStyle = false;
@@ -308,7 +309,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(238, 383);
+            this.label6.Location = new System.Drawing.Point(689, 161);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(78, 15);
             this.label6.TabIndex = 7;
@@ -326,7 +327,7 @@
             this.rjButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.rjButton2.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjButton2.ForeColor = System.Drawing.Color.White;
-            this.rjButton2.Location = new System.Drawing.Point(803, 554);
+            this.rjButton2.Location = new System.Drawing.Point(799, 558);
             this.rjButton2.Name = "rjButton2";
             this.rjButton2.Size = new System.Drawing.Size(95, 44);
             this.rjButton2.TabIndex = 5;
@@ -343,7 +344,7 @@
             this.rjTextBox6.BorderSize = 1;
             this.rjTextBox6.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox6.Location = new System.Drawing.Point(54, 467);
+            this.rjTextBox6.Location = new System.Drawing.Point(517, 245);
             this.rjTextBox6.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox6.Multiline = false;
             this.rjTextBox6.Name = "rjTextBox6";
@@ -360,7 +361,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(51, 450);
+            this.label7.Location = new System.Drawing.Point(514, 228);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(128, 15);
             this.label7.TabIndex = 7;
@@ -375,7 +376,7 @@
             this.rjTextBox7.BorderSize = 1;
             this.rjTextBox7.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox7.Location = new System.Drawing.Point(279, 467);
+            this.rjTextBox7.Location = new System.Drawing.Point(742, 245);
             this.rjTextBox7.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox7.Multiline = false;
             this.rjTextBox7.Name = "rjTextBox7";
@@ -383,7 +384,7 @@
             this.rjTextBox7.PasswordChar = false;
             this.rjTextBox7.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.rjTextBox7.PlaceholderText = "";
-            this.rjTextBox7.Size = new System.Drawing.Size(162, 34);
+            this.rjTextBox7.Size = new System.Drawing.Size(142, 34);
             this.rjTextBox7.TabIndex = 4;
             this.rjTextBox7.Texts = "1";
             this.rjTextBox7.UnderlinedStyle = false;
@@ -392,7 +393,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(276, 450);
+            this.label8.Location = new System.Drawing.Point(739, 228);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(33, 15);
             this.label8.TabIndex = 7;
@@ -403,9 +404,9 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel3.Location = new System.Drawing.Point(485, 303);
+            this.panel3.Location = new System.Drawing.Point(465, 100);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1, 260);
+            this.panel3.Size = new System.Drawing.Size(1, 500);
             this.panel3.TabIndex = 8;
             // 
             // rjTextBox8
@@ -417,7 +418,7 @@
             this.rjTextBox8.BorderSize = 1;
             this.rjTextBox8.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox8.Location = new System.Drawing.Point(191, 467);
+            this.rjTextBox8.Location = new System.Drawing.Point(653, 245);
             this.rjTextBox8.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox8.Multiline = false;
             this.rjTextBox8.Name = "rjTextBox8";
@@ -434,7 +435,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(188, 450);
+            this.label9.Location = new System.Drawing.Point(650, 228);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(44, 15);
             this.label9.TabIndex = 7;
@@ -449,7 +450,7 @@
             this.rjTextBox9.BorderSize = 1;
             this.rjTextBox9.Font = new System.Drawing.Font("Montserrat Medium", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rjTextBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.rjTextBox9.Location = new System.Drawing.Point(523, 469);
+            this.rjTextBox9.Location = new System.Drawing.Point(517, 438);
             this.rjTextBox9.Margin = new System.Windows.Forms.Padding(2);
             this.rjTextBox9.Multiline = false;
             this.rjTextBox9.Name = "rjTextBox9";
@@ -466,7 +467,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(520, 452);
+            this.label10.Location = new System.Drawing.Point(514, 421);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(50, 15);
             this.label10.TabIndex = 7;
@@ -475,7 +476,7 @@
             // rjToggleButton1
             // 
             this.rjToggleButton1.AutoSize = true;
-            this.rjToggleButton1.Location = new System.Drawing.Point(241, 109);
+            this.rjToggleButton1.Location = new System.Drawing.Point(634, 114);
             this.rjToggleButton1.MinimumSize = new System.Drawing.Size(45, 22);
             this.rjToggleButton1.Name = "rjToggleButton1";
             this.rjToggleButton1.OffBackColor = System.Drawing.Color.Gray;
@@ -486,47 +487,52 @@
             this.rjToggleButton1.TabIndex = 9;
             this.rjToggleButton1.UseVisualStyleBackColor = true;
             // 
-            // rjToggleButton2
-            // 
-            this.rjToggleButton2.AutoSize = true;
-            this.rjToggleButton2.Location = new System.Drawing.Point(241, 137);
-            this.rjToggleButton2.MinimumSize = new System.Drawing.Size(45, 22);
-            this.rjToggleButton2.Name = "rjToggleButton2";
-            this.rjToggleButton2.OffBackColor = System.Drawing.Color.Gray;
-            this.rjToggleButton2.OffToggleColor = System.Drawing.Color.Gainsboro;
-            this.rjToggleButton2.OnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.rjToggleButton2.OnToggleColor = System.Drawing.Color.WhiteSmoke;
-            this.rjToggleButton2.Size = new System.Drawing.Size(45, 22);
-            this.rjToggleButton2.TabIndex = 9;
-            this.rjToggleButton2.UseVisualStyleBackColor = true;
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(293, 112);
+            this.label11.Location = new System.Drawing.Point(686, 117);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(78, 15);
             this.label11.TabIndex = 7;
             this.label11.Text = "Colaborador";
             // 
-            // label12
+            // rjButton3
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Montserrat SemiBold", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(293, 140);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(48, 15);
-            this.label12.TabIndex = 7;
-            this.label12.Text = "Cliente";
+            this.rjButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton3.BorderColor = System.Drawing.Color.PaleGreen;
+            this.rjButton3.BorderRadius = 10;
+            this.rjButton3.BorderSize = 0;
+            this.rjButton3.FlatAppearance.BorderSize = 0;
+            this.rjButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton3.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rjButton3.ForeColor = System.Drawing.Color.White;
+            this.rjButton3.Location = new System.Drawing.Point(517, 485);
+            this.rjButton3.Name = "rjButton3";
+            this.rjButton3.Size = new System.Drawing.Size(119, 26);
+            this.rjButton3.TabIndex = 5;
+            this.rjButton3.Text = "Alterar senha";
+            this.rjButton3.TextColor = System.Drawing.Color.White;
+            this.rjButton3.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(60, 309);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(354, 248);
+            this.dataGridView1.TabIndex = 10;
             // 
             // FrmUsuários
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(929, 621);
-            this.Controls.Add(this.rjToggleButton2);
+            this.ClientSize = new System.Drawing.Size(929, 633);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.rjToggleButton1);
             this.Controls.Add(this.rjCircularPictureBox1);
             this.Controls.Add(this.rjButton1);
@@ -539,9 +545,9 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.rjButton3);
             this.Controls.Add(this.rjButton2);
             this.Controls.Add(this.rjTextBox4);
             this.Controls.Add(this.rjTextBox3);
@@ -563,6 +569,7 @@
             this.Text = "FrmUsuários";
             this.Load += new System.EventHandler(this.FrmUsuários_Load);
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -597,8 +604,8 @@
         private CustomControls.RJControls.RJTextBox rjTextBox9;
         private System.Windows.Forms.Label label10;
         private CustomControls.RJControls.RJToggleButton rjToggleButton1;
-        private CustomControls.RJControls.RJToggleButton rjToggleButton2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private CustomControls.RJControls.RJButton rjButton3;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
