@@ -45,12 +45,12 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnCadastroUsuarios = new System.Windows.Forms.Button();
             this.btnCadastros = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelAtvUser = new System.Windows.Forms.Panel();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.lnUsername = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.panelHeader = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnSair = new CustomControls.RJControls.RJButton();
             this.panelForms = new System.Windows.Forms.Panel();
@@ -58,9 +58,9 @@
             this.panelAlmoxarifado.SuspendLayout();
             this.panelEngenharia.SuspendLayout();
             this.panelCadastros.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.panelAtvUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
+            this.panelHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,7 +76,7 @@
             this.panel1.Controls.Add(this.btnEngenharia);
             this.panel1.Controls.Add(this.panelCadastros);
             this.panel1.Controls.Add(this.btnCadastros);
-            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panelAtvUser);
             this.panel1.Location = new System.Drawing.Point(0, 36);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(214, 480);
@@ -332,17 +332,17 @@
             this.btnCadastros.UseVisualStyleBackColor = true;
             this.btnCadastros.Click += new System.EventHandler(this.btnCadastros_Click);
             // 
-            // panel3
+            // panelAtvUser
             // 
-            this.panel3.Controls.Add(this.rjCircularPictureBox1);
-            this.panel3.Controls.Add(this.label1);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.lnUsername);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(0, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(197, 208);
-            this.panel3.TabIndex = 2;
+            this.panelAtvUser.Controls.Add(this.rjCircularPictureBox1);
+            this.panelAtvUser.Controls.Add(this.label1);
+            this.panelAtvUser.Controls.Add(this.label3);
+            this.panelAtvUser.Controls.Add(this.lnUsername);
+            this.panelAtvUser.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelAtvUser.Location = new System.Drawing.Point(0, 0);
+            this.panelAtvUser.Name = "panelAtvUser";
+            this.panelAtvUser.Size = new System.Drawing.Size(197, 208);
+            this.panelAtvUser.TabIndex = 2;
             // 
             // rjCircularPictureBox1
             // 
@@ -393,17 +393,17 @@
             this.lnUsername.TabIndex = 1;
             this.lnUsername.Text = "<nome usuário>";
             // 
-            // panel2
+            // panelHeader
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.btnSair);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(793, 36);
-            this.panel2.TabIndex = 1;
-            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panelHeader.Controls.Add(this.pictureBox1);
+            this.panelHeader.Controls.Add(this.btnSair);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
+            this.panelHeader.Name = "panelHeader";
+            this.panelHeader.Size = new System.Drawing.Size(793, 36);
+            this.panelHeader.TabIndex = 1;
+            this.panelHeader.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // pictureBox1
             // 
@@ -454,7 +454,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(793, 516);
             this.Controls.Add(this.panelForms);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panelHeader);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -466,10 +466,10 @@
             this.panelAlmoxarifado.ResumeLayout(false);
             this.panelEngenharia.ResumeLayout(false);
             this.panelCadastros.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.panelAtvUser.ResumeLayout(false);
+            this.panelAtvUser.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
+            this.panelHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -481,9 +481,9 @@
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label lnUsername;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panelHeader;
         private CustomControls.RJControls.RJCircularPictureBox rjCircularPictureBox1;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panelAtvUser;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;

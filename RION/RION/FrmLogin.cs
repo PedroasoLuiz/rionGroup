@@ -27,7 +27,7 @@ namespace RION
         {
             FrmContainer frm = new FrmContainer();
             frm.lnUsername.Text = txtEmail.Texts;
-            this.Hide(); // use dessa maneira.
+            //this.Hide(); // use dessa maneira.
             frm.ShowDialog();
         }
 

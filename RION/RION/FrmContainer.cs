@@ -116,8 +116,8 @@ namespace RION
         {
             frm.Height = panelForms.Height;
             frm.Width = panelForms.Width;
-            frm.Left = panelForms.Left;
-            frm.Top = panelForms.Top;
+            frm.Left = panelAtvUser.Width;
+            frm.Top = panelHeader.Height;
             frm.ShowDialog();
         }
     }
