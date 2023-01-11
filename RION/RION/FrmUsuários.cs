@@ -26,5 +26,33 @@ namespace RION
         {
              
         }
+
+        private void rjButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rjTextBox12__TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbColaborador_CheckedChanged(object sender, EventArgs e)
+        {
+            if (tbColaborador.Checked == false)
+                panelColaborador.Visible = false;
+            else
+                panelColaborador.Visible = true;
+        }
     }
 }
