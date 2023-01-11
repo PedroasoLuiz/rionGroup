@@ -28,8 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContainer));
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panelMenus = new System.Windows.Forms.Panel();
             this.panelAlmoxarifado = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -52,9 +53,13 @@
             this.lnUsername = new System.Windows.Forms.Label();
             this.panelHeader = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMin = new CustomControls.RJControls.RJButton();
+            this.btnMax = new CustomControls.RJControls.RJButton();
             this.btnSair = new CustomControls.RJControls.RJButton();
             this.panelForms = new System.Windows.Forms.Panel();
-            this.panel1.SuspendLayout();
+            this.timerMenu = new System.Windows.Forms.Timer(this.components);
+            this.rjButton1 = new CustomControls.RJControls.RJButton();
+            this.panelMenus.SuspendLayout();
             this.panelAlmoxarifado.SuspendLayout();
             this.panelEngenharia.SuspendLayout();
             this.panelCadastros.SuspendLayout();
@@ -64,23 +69,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // panelMenus
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panelMenus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panel1.Controls.Add(this.panelAlmoxarifado);
-            this.panel1.Controls.Add(this.btnAlmoxarifado);
-            this.panel1.Controls.Add(this.panelEngenharia);
-            this.panel1.Controls.Add(this.btnEngenharia);
-            this.panel1.Controls.Add(this.panelCadastros);
-            this.panel1.Controls.Add(this.btnCadastros);
-            this.panel1.Controls.Add(this.panelAtvUser);
-            this.panel1.Location = new System.Drawing.Point(0, 36);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(214, 480);
-            this.panel1.TabIndex = 0;
+            this.panelMenus.AutoScroll = true;
+            this.panelMenus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.panelMenus.Controls.Add(this.panelAlmoxarifado);
+            this.panelMenus.Controls.Add(this.btnAlmoxarifado);
+            this.panelMenus.Controls.Add(this.panelEngenharia);
+            this.panelMenus.Controls.Add(this.btnEngenharia);
+            this.panelMenus.Controls.Add(this.panelCadastros);
+            this.panelMenus.Controls.Add(this.btnCadastros);
+            this.panelMenus.Controls.Add(this.panelAtvUser);
+            this.panelMenus.Location = new System.Drawing.Point(11, 68);
+            this.panelMenus.Name = "panelMenus";
+            this.panelMenus.Size = new System.Drawing.Size(214, 608);
+            this.panelMenus.TabIndex = 0;
             // 
             // panelAlmoxarifado
             // 
@@ -88,7 +93,7 @@
             this.panelAlmoxarifado.Controls.Add(this.button10);
             this.panelAlmoxarifado.Controls.Add(this.button11);
             this.panelAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAlmoxarifado.Location = new System.Drawing.Point(0, 544);
+            this.panelAlmoxarifado.Location = new System.Drawing.Point(0, 548);
             this.panelAlmoxarifado.Name = "panelAlmoxarifado";
             this.panelAlmoxarifado.Size = new System.Drawing.Size(197, 108);
             this.panelAlmoxarifado.TabIndex = 8;
@@ -147,19 +152,21 @@
             // 
             // btnAlmoxarifado
             // 
+            this.btnAlmoxarifado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAlmoxarifado.FlatAppearance.BorderSize = 0;
+            this.btnAlmoxarifado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnAlmoxarifado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlmoxarifado.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlmoxarifado.ForeColor = System.Drawing.Color.White;
             this.btnAlmoxarifado.Image = global::RION.Properties.Resources.Almoxarifado_icone25x25;
             this.btnAlmoxarifado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlmoxarifado.Location = new System.Drawing.Point(0, 504);
+            this.btnAlmoxarifado.Location = new System.Drawing.Point(0, 508);
             this.btnAlmoxarifado.Name = "btnAlmoxarifado";
-            this.btnAlmoxarifado.Padding = new System.Windows.Forms.Padding(1, 0, 0, 0);
+            this.btnAlmoxarifado.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
             this.btnAlmoxarifado.Size = new System.Drawing.Size(197, 40);
             this.btnAlmoxarifado.TabIndex = 7;
-            this.btnAlmoxarifado.Text = "Almoxarifado";
+            this.btnAlmoxarifado.Text = "  Almoxarifado";
             this.btnAlmoxarifado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAlmoxarifado.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAlmoxarifado.UseVisualStyleBackColor = true;
@@ -171,7 +178,7 @@
             this.panelEngenharia.Controls.Add(this.button6);
             this.panelEngenharia.Controls.Add(this.button7);
             this.panelEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEngenharia.Location = new System.Drawing.Point(0, 396);
+            this.panelEngenharia.Location = new System.Drawing.Point(0, 400);
             this.panelEngenharia.Name = "panelEngenharia";
             this.panelEngenharia.Size = new System.Drawing.Size(197, 108);
             this.panelEngenharia.TabIndex = 6;
@@ -230,19 +237,21 @@
             // 
             // btnEngenharia
             // 
+            this.btnEngenharia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEngenharia.FlatAppearance.BorderSize = 0;
+            this.btnEngenharia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnEngenharia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEngenharia.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEngenharia.ForeColor = System.Drawing.Color.White;
             this.btnEngenharia.Image = global::RION.Properties.Resources.os_icone25x25;
             this.btnEngenharia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEngenharia.Location = new System.Drawing.Point(0, 356);
+            this.btnEngenharia.Location = new System.Drawing.Point(0, 360);
             this.btnEngenharia.Name = "btnEngenharia";
-            this.btnEngenharia.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.btnEngenharia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnEngenharia.Size = new System.Drawing.Size(197, 40);
             this.btnEngenharia.TabIndex = 5;
-            this.btnEngenharia.Text = "Engenharia";
+            this.btnEngenharia.Text = "  Engenharia";
             this.btnEngenharia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnEngenharia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnEngenharia.UseVisualStyleBackColor = true;
@@ -254,7 +263,7 @@
             this.panelCadastros.Controls.Add(this.button3);
             this.panelCadastros.Controls.Add(this.btnCadastroUsuarios);
             this.panelCadastros.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCadastros.Location = new System.Drawing.Point(0, 248);
+            this.panelCadastros.Location = new System.Drawing.Point(0, 252);
             this.panelCadastros.Name = "panelCadastros";
             this.panelCadastros.Size = new System.Drawing.Size(197, 108);
             this.panelCadastros.TabIndex = 4;
@@ -307,26 +316,28 @@
             this.btnCadastroUsuarios.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
             this.btnCadastroUsuarios.Size = new System.Drawing.Size(197, 31);
             this.btnCadastroUsuarios.TabIndex = 0;
-            this.btnCadastroUsuarios.Text = "Usuários";
+            this.btnCadastroUsuarios.Text = "Meu cadastro";
             this.btnCadastroUsuarios.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastroUsuarios.UseVisualStyleBackColor = false;
             this.btnCadastroUsuarios.Click += new System.EventHandler(this.btnCadastroUsuarios_Click);
             // 
             // btnCadastros
             // 
+            this.btnCadastros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastros.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCadastros.FlatAppearance.BorderSize = 0;
+            this.btnCadastros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnCadastros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastros.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastros.ForeColor = System.Drawing.Color.White;
             this.btnCadastros.Image = global::RION.Properties.Resources.cadastros_icone20x20;
             this.btnCadastros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastros.Location = new System.Drawing.Point(0, 208);
+            this.btnCadastros.Location = new System.Drawing.Point(0, 212);
             this.btnCadastros.Name = "btnCadastros";
-            this.btnCadastros.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.btnCadastros.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnCadastros.Size = new System.Drawing.Size(197, 40);
             this.btnCadastros.TabIndex = 3;
-            this.btnCadastros.Text = " Cadastros";
+            this.btnCadastros.Text = "   Cadastros";
             this.btnCadastros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastros.UseVisualStyleBackColor = true;
@@ -341,7 +352,7 @@
             this.panelAtvUser.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelAtvUser.Location = new System.Drawing.Point(0, 0);
             this.panelAtvUser.Name = "panelAtvUser";
-            this.panelAtvUser.Size = new System.Drawing.Size(197, 208);
+            this.panelAtvUser.Size = new System.Drawing.Size(197, 212);
             this.panelAtvUser.TabIndex = 2;
             // 
             // rjCircularPictureBox1
@@ -397,23 +408,76 @@
             // 
             this.panelHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.panelHeader.Controls.Add(this.pictureBox1);
+            this.panelHeader.Controls.Add(this.btnMin);
+            this.panelHeader.Controls.Add(this.btnMax);
             this.panelHeader.Controls.Add(this.btnSair);
             this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(793, 36);
+            this.panelHeader.Size = new System.Drawing.Size(1024, 36);
             this.panelHeader.TabIndex = 1;
+            this.panelHeader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelHeader_MouseDown);
             this.panelHeader.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::RION.Properties.Resources.dev_júnior__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(5, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 27);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
+            // 
+            // btnMin
+            // 
+            this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMin.BackColor = System.Drawing.Color.Transparent;
+            this.btnMin.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnMin.BorderColor = System.Drawing.Color.White;
+            this.btnMin.BorderRadius = 5;
+            this.btnMin.BorderSize = 1;
+            this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMin.FlatAppearance.BorderSize = 0;
+            this.btnMin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMin.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMin.ForeColor = System.Drawing.Color.White;
+            this.btnMin.Location = new System.Drawing.Point(937, 6);
+            this.btnMin.Name = "btnMin";
+            this.btnMin.Size = new System.Drawing.Size(26, 24);
+            this.btnMin.TabIndex = 2;
+            this.btnMin.Text = "_";
+            this.btnMin.TextColor = System.Drawing.Color.White;
+            this.btnMin.UseVisualStyleBackColor = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click);
+            // 
+            // btnMax
+            // 
+            this.btnMax.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMax.BackColor = System.Drawing.Color.Transparent;
+            this.btnMax.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btnMax.BorderColor = System.Drawing.Color.White;
+            this.btnMax.BorderRadius = 5;
+            this.btnMax.BorderSize = 1;
+            this.btnMax.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMax.FlatAppearance.BorderSize = 0;
+            this.btnMax.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMax.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMax.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMax.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMax.Image = global::RION.Properties.Resources.max12x12;
+            this.btnMax.Location = new System.Drawing.Point(964, 6);
+            this.btnMax.Name = "btnMax";
+            this.btnMax.Size = new System.Drawing.Size(26, 24);
+            this.btnMax.TabIndex = 2;
+            this.btnMax.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnMax.UseVisualStyleBackColor = false;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click);
             // 
             // btnSair
             // 
@@ -422,17 +486,20 @@
             this.btnSair.BackColor = System.Drawing.Color.Transparent;
             this.btnSair.BackgroundColor = System.Drawing.Color.Transparent;
             this.btnSair.BorderColor = System.Drawing.Color.White;
-            this.btnSair.BorderRadius = 10;
+            this.btnSair.BorderRadius = 5;
             this.btnSair.BorderSize = 1;
+            this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSair.FlatAppearance.BorderSize = 0;
+            this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(748, 6);
+            this.btnSair.Location = new System.Drawing.Point(991, 6);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(38, 24);
+            this.btnSair.Size = new System.Drawing.Size(26, 24);
             this.btnSair.TabIndex = 2;
-            this.btnSair.Text = "sair";
+            this.btnSair.Text = "x";
             this.btnSair.TextColor = System.Drawing.Color.White;
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.lbClose_Click);
@@ -442,27 +509,52 @@
             this.panelForms.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelForms.Location = new System.Drawing.Point(215, 37);
+            this.panelForms.BackColor = System.Drawing.Color.White;
+            this.panelForms.Location = new System.Drawing.Point(232, 37);
             this.panelForms.Name = "panelForms";
-            this.panelForms.Size = new System.Drawing.Size(578, 479);
+            this.panelForms.Size = new System.Drawing.Size(792, 681);
             this.panelForms.TabIndex = 2;
+            // 
+            // rjButton1
+            // 
+            this.rjButton1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.rjButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton1.BorderRadius = 25;
+            this.rjButton1.BorderSize = 0;
+            this.rjButton1.FlatAppearance.BorderSize = 0;
+            this.rjButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.rjButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rjButton1.ForeColor = System.Drawing.Color.White;
+            this.rjButton1.Location = new System.Drawing.Point(9, 45);
+            this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Size = new System.Drawing.Size(217, 660);
+            this.rjButton1.TabIndex = 0;
+            this.rjButton1.Text = "rjButton1";
+            this.rjButton1.TextColor = System.Drawing.Color.White;
+            this.rjButton1.UseVisualStyleBackColor = false;
             // 
             // FrmContainer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(793, 516);
+            this.ClientSize = new System.Drawing.Size(1024, 718);
             this.Controls.Add(this.panelForms);
             this.Controls.Add(this.panelHeader);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelMenus);
+            this.Controls.Add(this.rjButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MinimumSize = new System.Drawing.Size(1024, 718);
             this.Name = "FrmContainer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmContainer";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.panel1.ResumeLayout(false);
+            this.Resize += new System.EventHandler(this.FrmContainer_Resize);
+            this.panelMenus.ResumeLayout(false);
             this.panelAlmoxarifado.ResumeLayout(false);
             this.panelEngenharia.ResumeLayout(false);
             this.panelCadastros.ResumeLayout(false);
@@ -477,7 +569,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panelMenus;
         private System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label lnUsername;
         private System.Windows.Forms.Label label1;
@@ -502,5 +594,9 @@
         private CustomControls.RJControls.RJButton btnSair;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Panel panelForms;
+        private System.Windows.Forms.Timer timerMenu;
+        private CustomControls.RJControls.RJButton btnMin;
+        private CustomControls.RJControls.RJButton btnMax;
+        private CustomControls.RJControls.RJButton rjButton1;
     }
 }

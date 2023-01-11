@@ -24,6 +24,7 @@ namespace RION
 
         private void FrmUsuários_Load(object sender, EventArgs e)
         {
+             
         }
     }
 }

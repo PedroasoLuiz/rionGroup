@@ -123,9 +123,39 @@ namespace RION.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icone_menu25x25 {
+            get {
+                object obj = ResourceManager.GetObject("icone-menu25x25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icone_menu30x30 {
+            get {
+                object obj = ResourceManager.GetObject("icone-menu30x30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icone_sem_fundo {
             get {
                 object obj = ResourceManager.GetObject("icone-sem-fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap max12x12 {
+            get {
+                object obj = ResourceManager.GetObject("max12x12", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -160,5 +160,14 @@
   <ItemGroup>
     <None Include="Resources\dev júnior %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-menu25x25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-menu30x30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\max12x12.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
