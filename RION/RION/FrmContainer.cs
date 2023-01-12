@@ -34,6 +34,7 @@ namespace RION
         {
             try
             {
+                
                 FechaOpcoes(panelAlmoxarifado);
                 Opcoes(panelCadastros);
                 FechaOpcoes(panelEngenharia);
@@ -49,6 +50,7 @@ namespace RION
         {
             try
             {
+                
                 FechaOpcoes(panelAlmoxarifado);
                 FechaOpcoes(panelCadastros);
                 Opcoes(panelEngenharia);
@@ -63,6 +65,7 @@ namespace RION
         {
             try
             {
+                
                 Opcoes(panelAlmoxarifado);
                 FechaOpcoes(panelCadastros);
                 FechaOpcoes(panelEngenharia);
@@ -76,7 +79,7 @@ namespace RION
         private void Opcoes(Panel container)
         {
             try
-            {
+            {           
                 if (container.Visible == true)
                     container.Visible = false;
                 else

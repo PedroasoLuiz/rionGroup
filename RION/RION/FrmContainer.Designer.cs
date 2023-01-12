@@ -102,6 +102,7 @@
             // button9
             // 
             this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button9.Dock = System.Windows.Forms.DockStyle.Top;
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -119,6 +120,7 @@
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button10.Dock = System.Windows.Forms.DockStyle.Top;
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -136,6 +138,7 @@
             // button11
             // 
             this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button11.Dock = System.Windows.Forms.DockStyle.Top;
             this.button11.FlatAppearance.BorderSize = 0;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -155,6 +158,7 @@
             this.btnAlmoxarifado.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnAlmoxarifado.FlatAppearance.BorderSize = 0;
+            this.btnAlmoxarifado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnAlmoxarifado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnAlmoxarifado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlmoxarifado.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,6 +191,7 @@
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -204,6 +209,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Dock = System.Windows.Forms.DockStyle.Top;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -221,6 +227,7 @@
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button7.Dock = System.Windows.Forms.DockStyle.Top;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -240,6 +247,7 @@
             this.btnEngenharia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnEngenharia.FlatAppearance.BorderSize = 0;
+            this.btnEngenharia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnEngenharia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnEngenharia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEngenharia.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -272,6 +280,7 @@
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Dock = System.Windows.Forms.DockStyle.Top;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -289,6 +298,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Dock = System.Windows.Forms.DockStyle.Top;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -306,6 +316,7 @@
             // btnCadastroUsuarios
             // 
             this.btnCadastroUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.btnCadastroUsuarios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastroUsuarios.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCadastroUsuarios.FlatAppearance.BorderSize = 0;
             this.btnCadastroUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -326,6 +337,7 @@
             this.btnCadastros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCadastros.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnCadastros.FlatAppearance.BorderSize = 0;
+            this.btnCadastros.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnCadastros.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.btnCadastros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastros.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
