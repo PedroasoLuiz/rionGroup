@@ -380,7 +380,6 @@
             this.btnSalvar.Text = "Salvar";
             this.btnSalvar.TextColor = System.Drawing.Color.White;
             this.btnSalvar.UseVisualStyleBackColor = false;
-            this.btnSalvar.Click += new System.EventHandler(this.rjButton2_Click);
             // 
             // txtNasc
             // 
@@ -621,7 +620,6 @@
             this.label24.Size = new System.Drawing.Size(74, 16);
             this.label24.TabIndex = 14;
             this.label24.Text = "Alterações:";
-            this.label24.Click += new System.EventHandler(this.label24_Click);
             // 
             // label14
             // 
@@ -774,7 +772,6 @@
             this.txtComplemento.TabIndex = 4;
             this.txtComplemento.Texts = "";
             this.txtComplemento.UnderlinedStyle = false;
-            this.txtComplemento._TextChanged += new System.EventHandler(this.rjTextBox12__TextChanged);
             // 
             // txtUF
             // 
@@ -797,7 +794,6 @@
             this.txtUF.TabIndex = 6;
             this.txtUF.Texts = "";
             this.txtUF.UnderlinedStyle = false;
-            this.txtUF._TextChanged += new System.EventHandler(this.rjTextBox12__TextChanged);
             // 
             // txtNum
             // 
@@ -820,7 +816,6 @@
             this.txtNum.TabIndex = 2;
             this.txtNum.Texts = "";
             this.txtNum.UnderlinedStyle = false;
-            this.txtNum._TextChanged += new System.EventHandler(this.rjTextBox12__TextChanged);
             // 
             // label23
             // 
@@ -831,7 +826,6 @@
             this.label23.Size = new System.Drawing.Size(91, 15);
             this.label23.TabIndex = 14;
             this.label23.Text = "Complemento";
-            this.label23.Click += new System.EventHandler(this.label13_Click);
             // 
             // label22
             // 
@@ -842,7 +836,6 @@
             this.label22.Size = new System.Drawing.Size(26, 15);
             this.label22.TabIndex = 14;
             this.label22.Text = "UF:";
-            this.label22.Click += new System.EventHandler(this.label13_Click);
             // 
             // label13
             // 
@@ -853,7 +846,6 @@
             this.label13.Size = new System.Drawing.Size(57, 15);
             this.label13.TabIndex = 14;
             this.label13.Text = "Número:";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label21
             // 
@@ -1108,7 +1100,7 @@
             this.label15.Padding = new System.Windows.Forms.Padding(20, 5, 0, 5);
             this.label15.Size = new System.Drawing.Size(556, 38);
             this.label15.TabIndex = 0;
-            this.label15.Text = "Suas informações:";
+            this.label15.Text = "Informações:";
             // 
             // FrmUsuários
             // 
@@ -1148,41 +1140,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label1;
-        private CustomControls.RJControls.RJButton btnSair;
-        private CustomControls.RJControls.RJTextBox txtId;
-        private CustomControls.RJControls.RJTextBox txtNome;
         private CustomControls.RJControls.RJTextBox txtEmail;
         private CustomControls.RJControls.RJTextBox txtEmailRec;
-        private CustomControls.RJControls.RJButton btnUpload;
-        private CustomControls.RJControls.RJCircularPictureBox imgUser;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private CustomControls.RJControls.RJTextBox txtSobrenome;
-        private System.Windows.Forms.Label label6;
-        private CustomControls.RJControls.RJButton btnSalvar;
-        private CustomControls.RJControls.RJTextBox txtNasc;
-        private System.Windows.Forms.Label label7;
-        private CustomControls.RJControls.RJTextBox txtCPF;
-        private System.Windows.Forms.Label label8;
-        private CustomControls.RJControls.RJTextBox txtIdade;
-        private System.Windows.Forms.Label label9;
         private CustomControls.RJControls.RJTextBox txtCelular;
         private System.Windows.Forms.Label label10;
-        private CustomControls.RJControls.RJToggleButton tbColaborador;
-        private System.Windows.Forms.Label label11;
-        private CustomControls.RJControls.RJButton btnSenha;
-        private CustomControls.RJControls.RJButton rjButton4;
-        private System.Windows.Forms.Panel panelUser;
-        private System.Windows.Forms.Panel panelGeral;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
         private CustomControls.RJControls.RJTextBox txtCEP;
@@ -1194,21 +1157,49 @@
         private System.Windows.Forms.Label label21;
         private CustomControls.RJControls.RJTextBox txtCidade;
         private CustomControls.RJControls.RJComboBox cmbCargo;
-        private System.Windows.Forms.Label label12;
         private CustomControls.RJControls.RJTextBox rjTextBox10;
         private CustomControls.RJControls.RJTextBox txtComplemento;
         private CustomControls.RJControls.RJTextBox txtUF;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label14;
-        private CustomControls.RJControls.RJTextBox txtCadastro;
-        private CustomControls.RJControls.RJTextBox txtGrupo;
-        private CustomControls.RJControls.RJTextBox txtAlteracao;
-        private System.Windows.Forms.Panel panelInfo;
-        private System.Windows.Forms.Panel panelEndereco;
-        private System.Windows.Forms.Panel panelContato;
-        private System.Windows.Forms.Panel panelColaborador;
+        protected System.Windows.Forms.Label label2;
+        protected System.Windows.Forms.Label label7;
+        protected System.Windows.Forms.Label label8;
+        protected System.Windows.Forms.Label label9;
+        protected System.Windows.Forms.Label label11;
+        protected CustomControls.RJControls.RJButton btnSenha;
+        protected System.Windows.Forms.Label label12;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.Label label6;
+        protected System.Windows.Forms.Panel panel2;
+        protected internal System.Windows.Forms.Panel panel1;
+        protected internal CustomControls.RJControls.RJButton btnSair;
+        protected internal CustomControls.RJControls.RJButton btnSalvar;
+        protected internal CustomControls.RJControls.RJButton rjButton4;
+        protected internal System.Windows.Forms.Panel panelUser;
+        protected internal System.Windows.Forms.Panel panelGeral;
+        protected internal System.Windows.Forms.Label label1;
+        protected internal System.Windows.Forms.Label label15;
+        protected internal System.Windows.Forms.Label label17;
+        protected internal System.Windows.Forms.Label label16;
+        protected internal System.Windows.Forms.Panel panelInfo;
+        protected internal System.Windows.Forms.Panel panelEndereco;
+        protected internal System.Windows.Forms.Panel panelContato;
+        protected internal System.Windows.Forms.Panel panelColaborador;
+        protected internal CustomControls.RJControls.RJButton btnUpload;
+        protected internal CustomControls.RJControls.RJCircularPictureBox imgUser;
+        protected internal System.Windows.Forms.Label label25;
+        protected internal System.Windows.Forms.Label label24;
+        protected internal System.Windows.Forms.Label label14;
+        protected internal CustomControls.RJControls.RJTextBox txtCadastro;
+        protected internal CustomControls.RJControls.RJTextBox txtGrupo;
+        protected internal CustomControls.RJControls.RJTextBox txtAlteracao;
+        protected internal CustomControls.RJControls.RJTextBox txtId;
+        protected internal CustomControls.RJControls.RJTextBox txtNome;
+        protected internal CustomControls.RJControls.RJTextBox txtSobrenome;
+        protected internal CustomControls.RJControls.RJTextBox txtNasc;
+        protected internal CustomControls.RJControls.RJTextBox txtCPF;
+        protected internal CustomControls.RJControls.RJTextBox txtIdade;
+        protected internal CustomControls.RJControls.RJToggleButton tbColaborador;
     }
 }

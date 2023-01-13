@@ -265,11 +265,11 @@
             this.btnSair.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnSair.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.Gray;
-            this.btnSair.Location = new System.Drawing.Point(754, 450);
+            this.btnSair.Location = new System.Drawing.Point(671, 476);
             this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(77, 35);
+            this.btnSair.Size = new System.Drawing.Size(41, 28);
             this.btnSair.TabIndex = 5;
             this.btnSair.Text = "Sair";
             this.btnSair.TextColor = System.Drawing.Color.Gray;

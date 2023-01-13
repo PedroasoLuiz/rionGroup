@@ -44,3 +44,4 @@ C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.exe
 C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.pdb
 C:\Xoquinho\rionGroup\RION\RION\obj\Debug\RION.FrmUsuários.resources
 D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmUsuários.resources
+D:\Projeto RION\rionGroup\RION\RION\obj\Debug\RION.FrmClientes.resources

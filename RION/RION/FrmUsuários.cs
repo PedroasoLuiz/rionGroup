@@ -17,7 +17,7 @@ namespace RION
             InitializeComponent();
         }
 
-        private void btnSair_Click(object sender, EventArgs e)
+        protected void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -25,26 +25,6 @@ namespace RION
         private void FrmUsuários_Load(object sender, EventArgs e)
         {
              
-        }
-
-        private void rjButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rjTextBox12__TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label24_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void tbColaborador_CheckedChanged(object sender, EventArgs e)

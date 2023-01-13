@@ -134,7 +134,7 @@ namespace RION
         {
             try
             {
-                timerMenu.Enabled = true;
+                
             }
             catch (Exception ex)
             {
@@ -168,5 +168,25 @@ namespace RION
             //else
             //    FormBorderStyle = FormBorderStyle.Sizable;
         }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var frm = Application.OpenForms["FrmClientes"];
+                if (frm == null)
+                {
+                    FrmClientes frmCli = new FrmClientes();
+                    ChamaForm(frmCli);
+                }
+                else
+                    frm.Activate();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
     }
 }
