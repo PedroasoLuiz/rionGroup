@@ -178,5 +178,8 @@
   <ItemGroup>
     <None Include="Resources\max12x12.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dash-icone20x20.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

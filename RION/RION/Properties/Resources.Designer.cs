@@ -113,6 +113,16 @@ namespace RION.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dash_icone20x20 {
+            get {
+                object obj = ResourceManager.GetObject("dash-icone20x20", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dev_júnior__1_ {
             get {
                 object obj = ResourceManager.GetObject("dev júnior (1)", resourceCulture);

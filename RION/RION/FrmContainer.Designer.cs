@@ -30,21 +30,25 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmContainer));
             this.panelMenus = new System.Windows.Forms.Panel();
-            this.panelAlmoxarifado = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.btnAlmoxarifado = new System.Windows.Forms.Button();
+            this.panelCadastros = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.btnClientes = new System.Windows.Forms.Button();
+            this.btnCadastroUsuarios = new System.Windows.Forms.Button();
+            this.btnCadastros = new System.Windows.Forms.Button();
             this.panelEngenharia = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.btnEngenharia = new System.Windows.Forms.Button();
-            this.panelCadastros = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.btnClientes = new System.Windows.Forms.Button();
-            this.btnCadastroUsuarios = new System.Windows.Forms.Button();
-            this.btnCadastros = new System.Windows.Forms.Button();
+            this.panelAlmoxarifado = new System.Windows.Forms.Panel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.btnAlmoxarifado = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
             this.panelAtvUser = new System.Windows.Forms.Panel();
             this.rjCircularPictureBox1 = new CustomControls.RJControls.RJCircularPictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,13 +62,10 @@
             this.panelForms = new System.Windows.Forms.Panel();
             this.btnSuporte = new System.Windows.Forms.Button();
             this.rjButton1 = new CustomControls.RJControls.RJButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.panelMenus.SuspendLayout();
-            this.panelAlmoxarifado.SuspendLayout();
-            this.panelEngenharia.SuspendLayout();
             this.panelCadastros.SuspendLayout();
+            this.panelEngenharia.SuspendLayout();
+            this.panelAlmoxarifado.SuspendLayout();
             this.panelAtvUser.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).BeginInit();
             this.panelHeader.SuspendLayout();
@@ -78,195 +79,18 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.panelMenus.AutoScroll = true;
             this.panelMenus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.panelMenus.Controls.Add(this.panelAlmoxarifado);
-            this.panelMenus.Controls.Add(this.btnAlmoxarifado);
-            this.panelMenus.Controls.Add(this.panelEngenharia);
-            this.panelMenus.Controls.Add(this.btnEngenharia);
             this.panelMenus.Controls.Add(this.panelCadastros);
             this.panelMenus.Controls.Add(this.btnCadastros);
+            this.panelMenus.Controls.Add(this.panelEngenharia);
+            this.panelMenus.Controls.Add(this.btnEngenharia);
+            this.panelMenus.Controls.Add(this.panelAlmoxarifado);
+            this.panelMenus.Controls.Add(this.btnAlmoxarifado);
+            this.panelMenus.Controls.Add(this.button8);
             this.panelMenus.Controls.Add(this.panelAtvUser);
             this.panelMenus.Location = new System.Drawing.Point(11, 68);
             this.panelMenus.Name = "panelMenus";
             this.panelMenus.Size = new System.Drawing.Size(214, 608);
             this.panelMenus.TabIndex = 0;
-            // 
-            // panelAlmoxarifado
-            // 
-            this.panelAlmoxarifado.Controls.Add(this.button9);
-            this.panelAlmoxarifado.Controls.Add(this.button10);
-            this.panelAlmoxarifado.Controls.Add(this.button11);
-            this.panelAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelAlmoxarifado.Location = new System.Drawing.Point(0, 632);
-            this.panelAlmoxarifado.Name = "panelAlmoxarifado";
-            this.panelAlmoxarifado.Size = new System.Drawing.Size(197, 108);
-            this.panelAlmoxarifado.TabIndex = 8;
-            this.panelAlmoxarifado.Visible = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(0, 62);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(197, 31);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "button9";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(0, 31);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(197, 31);
-            this.button10.TabIndex = 1;
-            this.button10.Text = "...";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(197, 31);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "Estoque";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // btnAlmoxarifado
-            // 
-            this.btnAlmoxarifado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnAlmoxarifado.FlatAppearance.BorderSize = 0;
-            this.btnAlmoxarifado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.btnAlmoxarifado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.btnAlmoxarifado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAlmoxarifado.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlmoxarifado.ForeColor = System.Drawing.Color.White;
-            this.btnAlmoxarifado.Image = global::RION.Properties.Resources.Almoxarifado_icone25x25;
-            this.btnAlmoxarifado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlmoxarifado.Location = new System.Drawing.Point(0, 592);
-            this.btnAlmoxarifado.Name = "btnAlmoxarifado";
-            this.btnAlmoxarifado.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
-            this.btnAlmoxarifado.Size = new System.Drawing.Size(197, 40);
-            this.btnAlmoxarifado.TabIndex = 7;
-            this.btnAlmoxarifado.Text = "  Almoxarifado";
-            this.btnAlmoxarifado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAlmoxarifado.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnAlmoxarifado.UseVisualStyleBackColor = true;
-            this.btnAlmoxarifado.Click += new System.EventHandler(this.btnAlmoxarifado_Click);
-            // 
-            // panelEngenharia
-            // 
-            this.panelEngenharia.Controls.Add(this.button5);
-            this.panelEngenharia.Controls.Add(this.button6);
-            this.panelEngenharia.Controls.Add(this.button7);
-            this.panelEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelEngenharia.Location = new System.Drawing.Point(0, 484);
-            this.panelEngenharia.Name = "panelEngenharia";
-            this.panelEngenharia.Size = new System.Drawing.Size(197, 108);
-            this.panelEngenharia.TabIndex = 6;
-            this.panelEngenharia.Visible = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 62);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(197, 31);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "Controle de horas";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(0, 31);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button6.Size = new System.Drawing.Size(197, 31);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "Projetos";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(0, 0);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button7.Size = new System.Drawing.Size(197, 31);
-            this.button7.TabIndex = 0;
-            this.button7.Text = "Ordem de serviço";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // btnEngenharia
-            // 
-            this.btnEngenharia.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnEngenharia.FlatAppearance.BorderSize = 0;
-            this.btnEngenharia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.btnEngenharia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.btnEngenharia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEngenharia.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEngenharia.ForeColor = System.Drawing.Color.White;
-            this.btnEngenharia.Image = global::RION.Properties.Resources.os_icone25x25;
-            this.btnEngenharia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEngenharia.Location = new System.Drawing.Point(0, 444);
-            this.btnEngenharia.Name = "btnEngenharia";
-            this.btnEngenharia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.btnEngenharia.Size = new System.Drawing.Size(197, 40);
-            this.btnEngenharia.TabIndex = 5;
-            this.btnEngenharia.Text = "  Engenharia";
-            this.btnEngenharia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEngenharia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnEngenharia.UseVisualStyleBackColor = true;
-            this.btnEngenharia.Click += new System.EventHandler(this.btnEngenharia_Click);
             // 
             // panelCadastros
             // 
@@ -277,11 +101,65 @@
             this.panelCadastros.Controls.Add(this.btnClientes);
             this.panelCadastros.Controls.Add(this.btnCadastroUsuarios);
             this.panelCadastros.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelCadastros.Location = new System.Drawing.Point(0, 252);
+            this.panelCadastros.Location = new System.Drawing.Point(0, 588);
             this.panelCadastros.Name = "panelCadastros";
             this.panelCadastros.Size = new System.Drawing.Size(197, 192);
             this.panelCadastros.TabIndex = 4;
             this.panelCadastros.Visible = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(0, 155);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button3.Size = new System.Drawing.Size(197, 31);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Usuários";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 124);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(197, 31);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Transportadoras";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(0, 93);
+            this.button1.Name = "button1";
+            this.button1.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button1.Size = new System.Drawing.Size(197, 31);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Fornecedores";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -351,16 +229,215 @@
             this.btnCadastros.ForeColor = System.Drawing.Color.White;
             this.btnCadastros.Image = global::RION.Properties.Resources.cadastros_icone20x20;
             this.btnCadastros.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCadastros.Location = new System.Drawing.Point(0, 212);
+            this.btnCadastros.Location = new System.Drawing.Point(0, 548);
             this.btnCadastros.Name = "btnCadastros";
             this.btnCadastros.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnCadastros.Size = new System.Drawing.Size(197, 40);
-            this.btnCadastros.TabIndex = 3;
+            this.btnCadastros.TabIndex = 5;
             this.btnCadastros.Text = "   Cadastros";
             this.btnCadastros.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCadastros.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCadastros.UseVisualStyleBackColor = true;
             this.btnCadastros.Click += new System.EventHandler(this.btnCadastros_Click);
+            // 
+            // panelEngenharia
+            // 
+            this.panelEngenharia.Controls.Add(this.button5);
+            this.panelEngenharia.Controls.Add(this.button6);
+            this.panelEngenharia.Controls.Add(this.button7);
+            this.panelEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelEngenharia.Location = new System.Drawing.Point(0, 440);
+            this.panelEngenharia.Name = "panelEngenharia";
+            this.panelEngenharia.Size = new System.Drawing.Size(197, 108);
+            this.panelEngenharia.TabIndex = 4;
+            this.panelEngenharia.Visible = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 62);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(197, 31);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "Controle de horas";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(0, 31);
+            this.button6.Name = "button6";
+            this.button6.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button6.Size = new System.Drawing.Size(197, 31);
+            this.button6.TabIndex = 1;
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button7.FlatAppearance.BorderSize = 0;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(0, 0);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button7.Size = new System.Drawing.Size(197, 31);
+            this.button7.TabIndex = 0;
+            this.button7.Text = "Incluir";
+            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button7.UseVisualStyleBackColor = false;
+            // 
+            // btnEngenharia
+            // 
+            this.btnEngenharia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnEngenharia.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnEngenharia.FlatAppearance.BorderSize = 0;
+            this.btnEngenharia.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnEngenharia.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnEngenharia.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEngenharia.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEngenharia.ForeColor = System.Drawing.Color.White;
+            this.btnEngenharia.Image = global::RION.Properties.Resources.os_icone25x25;
+            this.btnEngenharia.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEngenharia.Location = new System.Drawing.Point(0, 400);
+            this.btnEngenharia.Name = "btnEngenharia";
+            this.btnEngenharia.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnEngenharia.Size = new System.Drawing.Size(197, 40);
+            this.btnEngenharia.TabIndex = 5;
+            this.btnEngenharia.Text = "  Ordem de serviço";
+            this.btnEngenharia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEngenharia.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnEngenharia.UseVisualStyleBackColor = true;
+            this.btnEngenharia.Click += new System.EventHandler(this.btnEngenharia_Click);
+            // 
+            // panelAlmoxarifado
+            // 
+            this.panelAlmoxarifado.Controls.Add(this.button9);
+            this.panelAlmoxarifado.Controls.Add(this.button10);
+            this.panelAlmoxarifado.Controls.Add(this.button11);
+            this.panelAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelAlmoxarifado.Location = new System.Drawing.Point(0, 292);
+            this.panelAlmoxarifado.Name = "panelAlmoxarifado";
+            this.panelAlmoxarifado.Size = new System.Drawing.Size(197, 108);
+            this.panelAlmoxarifado.TabIndex = 6;
+            this.panelAlmoxarifado.Visible = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(0, 62);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button9.Size = new System.Drawing.Size(197, 31);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "button9";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(0, 31);
+            this.button10.Name = "button10";
+            this.button10.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button10.Size = new System.Drawing.Size(197, 31);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "...";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
+            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Location = new System.Drawing.Point(0, 0);
+            this.button11.Name = "button11";
+            this.button11.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button11.Size = new System.Drawing.Size(197, 31);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "Estoque";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // btnAlmoxarifado
+            // 
+            this.btnAlmoxarifado.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlmoxarifado.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAlmoxarifado.FlatAppearance.BorderSize = 0;
+            this.btnAlmoxarifado.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnAlmoxarifado.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.btnAlmoxarifado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAlmoxarifado.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlmoxarifado.ForeColor = System.Drawing.Color.White;
+            this.btnAlmoxarifado.Image = global::RION.Properties.Resources.Almoxarifado_icone25x25;
+            this.btnAlmoxarifado.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlmoxarifado.Location = new System.Drawing.Point(0, 252);
+            this.btnAlmoxarifado.Name = "btnAlmoxarifado";
+            this.btnAlmoxarifado.Padding = new System.Windows.Forms.Padding(8, 0, 0, 0);
+            this.btnAlmoxarifado.Size = new System.Drawing.Size(197, 40);
+            this.btnAlmoxarifado.TabIndex = 7;
+            this.btnAlmoxarifado.Text = "  Almoxarifado";
+            this.btnAlmoxarifado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAlmoxarifado.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAlmoxarifado.UseVisualStyleBackColor = true;
+            this.btnAlmoxarifado.Click += new System.EventHandler(this.btnAlmoxarifado_Click);
+            // 
+            // button8
+            // 
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button8.FlatAppearance.BorderSize = 0;
+            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button8.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.White;
+            this.button8.Image = global::RION.Properties.Resources.dash_icone20x20;
+            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.Location = new System.Drawing.Point(0, 212);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.button8.Size = new System.Drawing.Size(197, 40);
+            this.button8.TabIndex = 0;
+            this.button8.Text = "   Dashboard";
+            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button8.UseVisualStyleBackColor = true;
             // 
             // panelAtvUser
             // 
@@ -372,7 +449,7 @@
             this.panelAtvUser.Location = new System.Drawing.Point(0, 0);
             this.panelAtvUser.Name = "panelAtvUser";
             this.panelAtvUser.Size = new System.Drawing.Size(197, 212);
-            this.panelAtvUser.TabIndex = 2;
+            this.panelAtvUser.TabIndex = 5;
             // 
             // rjCircularPictureBox1
             // 
@@ -565,65 +642,12 @@
             this.rjButton1.ForeColor = System.Drawing.Color.White;
             this.rjButton1.Location = new System.Drawing.Point(9, 45);
             this.rjButton1.Name = "rjButton1";
+            this.rjButton1.Padding = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.rjButton1.Size = new System.Drawing.Size(217, 660);
             this.rjButton1.TabIndex = 0;
             this.rjButton1.Text = "rjButton1";
             this.rjButton1.TextColor = System.Drawing.Color.White;
             this.rjButton1.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(0, 93);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(197, 31);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Fornecedores";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 124);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(197, 31);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Transportadoras";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(96)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(0, 155);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(197, 31);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Usuários";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // FrmContainer
             // 
@@ -644,9 +668,9 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Resize += new System.EventHandler(this.FrmContainer_Resize);
             this.panelMenus.ResumeLayout(false);
-            this.panelAlmoxarifado.ResumeLayout(false);
-            this.panelEngenharia.ResumeLayout(false);
             this.panelCadastros.ResumeLayout(false);
+            this.panelEngenharia.ResumeLayout(false);
+            this.panelAlmoxarifado.ResumeLayout(false);
             this.panelAtvUser.ResumeLayout(false);
             this.panelAtvUser.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.rjCircularPictureBox1)).EndInit();
@@ -666,21 +690,6 @@
         private System.Windows.Forms.Panel panelHeader;
         private CustomControls.RJControls.RJCircularPictureBox rjCircularPictureBox1;
         private System.Windows.Forms.Panel panelAtvUser;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button btnAlmoxarifado;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button btnEngenharia;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button btnClientes;
-        private System.Windows.Forms.Button btnCadastroUsuarios;
-        private System.Windows.Forms.Button btnCadastros;
-        public System.Windows.Forms.Panel panelCadastros;
-        public System.Windows.Forms.Panel panelAlmoxarifado;
-        public System.Windows.Forms.Panel panelEngenharia;
         private CustomControls.RJControls.RJButton btnSair;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Panel panelForms;
@@ -688,8 +697,24 @@
         private CustomControls.RJControls.RJButton btnMax;
         private CustomControls.RJControls.RJButton rjButton1;
         private System.Windows.Forms.Button btnSuporte;
+        private System.Windows.Forms.Button button8;
+        public System.Windows.Forms.Panel panelCadastros;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnClientes;
+        private System.Windows.Forms.Button btnCadastroUsuarios;
+        private System.Windows.Forms.Button btnCadastros;
+        public System.Windows.Forms.Panel panelEngenharia;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button btnEngenharia;
+        public System.Windows.Forms.Panel panelAlmoxarifado;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btnAlmoxarifado;
     }
 }
